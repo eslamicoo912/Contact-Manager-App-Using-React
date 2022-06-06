@@ -1,0 +1,102 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+}
+
+/* header */
+.header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  word-spacing: 10px;
+}
+
+.header span {
+  color: #61dafb;
+  letter-spacing: 3px;
+}
+
+hr.style-seven {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.style-seven:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+/* add contact */
+
+/* contact card */
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+}
+
+.user-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+}
+
+div.main form input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* contacts list */
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-list button.clear-btn {
+  width: 30%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+div.contacts-list input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+button.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button.hidden {
+  display: none;
+}
