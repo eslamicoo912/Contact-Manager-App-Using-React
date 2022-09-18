@@ -16,7 +16,7 @@ const ContactList = (props) => {
   }
 
   return (
-    <div className="contacts-list w-75 m-auto">
+    <div className="contacts-list w-75 m-auto container">
       {renderContactsList}
       <button
         className={

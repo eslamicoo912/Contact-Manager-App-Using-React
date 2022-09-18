@@ -6,7 +6,8 @@
 }
 
 body {
-  height: 2000px;
+  background-color: #282c34;
+  color: white;
 }
 
 /* header */
@@ -16,12 +17,11 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  border-radius: 10px;
   word-spacing: 10px;
 }
 
 .header span {
-  color: #61dafb;
+  color: #27ae60;
   letter-spacing: 3px;
 }
 
@@ -73,6 +73,12 @@ hr.style-seven:before {
 div.main form input:focus {
   box-shadow: none;
   outline: none;
+}
+
+/* form */
+.main:hover {
+  border: 1px solid #27ae60;
+  border-radius: 12px;
 }
 
 /* contacts list */

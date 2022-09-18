@@ -37,9 +37,8 @@ const App = () => {
   }
 
   return (
-    <div className="container">
+    <div className="app text-center">
       <Header />
-      <hr className="style-seven mt-5"></hr>
       <AddContact addContactHandler={addContactHandler} />
       <ContactList
         contacts={contacts}
