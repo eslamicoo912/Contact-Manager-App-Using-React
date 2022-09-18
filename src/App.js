@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import AddContact from "./components/AddContact";
 import ContactList from "./components/ContactList";
-import Header from "./components/Header";
 import { v4 as uuid } from "uuid";
 
 const App = () => {
