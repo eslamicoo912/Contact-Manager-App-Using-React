@@ -10,43 +10,6 @@ body {
   color: white;
 }
 
-/* header */
-.header {
-  background-color: #282c34;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  word-spacing: 10px;
-}
-
-.header span {
-  color: #27ae60;
-  letter-spacing: 3px;
-}
-
-hr.style-seven {
-  overflow: visible; /* For IE */
-  height: 30px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px 0 0 0;
-  border-radius: 20px;
-}
-hr.style-seven:before {
-  /* Not really supposed to work, but does */
-  display: block;
-  content: "";
-  height: 30px;
-  margin-top: -31px;
-  border-style: solid;
-  border-color: black;
-  border-width: 0 0 1px 0;
-  border-radius: 20px;
-}
-
-/* add contact */
-
 /* contact card */
 
 .contact {

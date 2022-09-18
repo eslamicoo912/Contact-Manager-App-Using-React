@@ -38,7 +38,6 @@ const App = () => {
 
   return (
     <div className="app text-center">
-      <Header />
       <AddContact addContactHandler={addContactHandler} />
       <ContactList
         contacts={contacts}
